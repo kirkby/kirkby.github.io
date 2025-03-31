@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Order Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        ul {
+            margin-top: 20px;
+            padding: 0;
+            list-style-type: none;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Order Generator</h1>
+    <p>Paste a list of names (one per line) below:</p>
+    <textarea id="studentInput" placeholder="Enter names here..."></textarea>
+    <button onclick="generateRandomOrder()">Generate Random Order</button>
+    <ul id="resultList"></ul>
+
+    <script>
+        function generateRandomOrder() {
+            const input = document.getElementById('studentInput').value;
+            const students = input.split('\n').filter(name => name.trim() !== '');
+            const randomized = students.map(name => ({ name, order: Math.random() }))
+                                       .sort((a, b) => a.order - b.order)
+                                       .map((item, index) => `${index + 1}. ${item.name}`);
+            
+            const resultList = document.getElementById('resultList');
+            resultList.innerHTML = '';
+            randomized.forEach(student => {
+                const li = document.createElement('li');
+                li.textContent = student;
+                resultList.appendChild(li);
+            });
+        }
+    </script>
+</body>
+</html>
