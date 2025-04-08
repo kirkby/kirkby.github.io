@@ -17,7 +17,7 @@ const quizData = [
             "100.000",
             "1.000.000.000"
         ],
-        answer: 1
+        answer: 0
     },
     {
         question: "(Casper) hvordan finde man alle produkter med en pris under 1000 kr. i sql når man har med databaser?",
@@ -27,7 +27,7 @@ const quizData = [
             "SELECT * where Produkt pris < 1000;",
             "SELECT * From Produkt if pris < 1000;"
         ],
-        answer: 1
+        answer: 0
     },
     {
         question: "(Cecilie) Hvad står GDPR for?",
@@ -37,7 +37,7 @@ const quizData = [
             "General data protection regulation",
             "Glemsomme danskeres pande rester"
         ],
-        answer: 3
+        answer: 2
     },
     {
         question: "(Cecilie) Hvorfor er GDPR noget vi skal lærer om",
@@ -47,7 +47,7 @@ const quizData = [
             "Donald Trump har bestemt det",
             "Fordi hunden tissede i sengen"
         ],
-        answer: 1
+        answer: 0
     },
     {
         question: "(Dea) Hvad er en algoritme i informatik?",
@@ -117,7 +117,7 @@ const quizData = [
             "User Equipment",
             "Unknown User"
         ],
-        answer: 1
+        answer: 0
     },
     {
         question: "(Marie) Hvad står UI for?",
@@ -127,7 +127,7 @@ const quizData = [
             "User Interface",
             "Interaction Design"
         ],
-        answer: 3
+        answer: 2
     },
     {
         question: "(Magnus) Hvad står CIA for i IT-sikkerhed?",
