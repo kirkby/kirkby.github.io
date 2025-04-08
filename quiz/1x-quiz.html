@@ -37,21 +37,8 @@
         <h2 id="question"></h2>
         <div id="choices"></div>
     </div>
-    <script>
-        <!-- Indsæt JavaScript-koden fra quizdokumentet her -->
-        const quizData = [
-            {
-                question: "Hvad er en variabel i programmering?",
-                choices: [
-                    "Et program, der kan køre på en computer",
-                    "En beholder, der gemmer en værdi",
-                    "En fejl i koden",
-                    "En funktion, der gentager sig selv"
-                ],
-                answer: 1
-            },
-        ];
-
+    <script type="module">
+        import quizData from './1x-quizdata.js';
         let currentQuestion = 0;
         let score = 0;
 

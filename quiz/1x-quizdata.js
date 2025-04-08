@@ -90,6 +90,26 @@ const quizData = [
         "answer": 2
     },
     {
+        question: "(Kasper) Hvad er formålet med en VPN?",
+        choices: [
+            "At blokere cookies fra en hjemmeside",
+            "At øge din internethastighed",
+            "At skjule din IP og kryptere data",
+            "At opdater din browser automatisk"
+        ],
+        answer: 2
+    },
+    {
+        question: "(Kasper) Hvad står CRUD for i databaser?",
+        choices: [
+            "Copy, Replace, Use, Delete",
+            "Create, Read, Update, Delete",
+            "Connect, Run, Update, Deliver",
+            "Cache, Retrieve, Undo, Download"
+        ],
+        answer: 1
+    },
+    {
         question: "(Marie) Hvad står UX for?",
         choices: [
             "User Experience",
@@ -168,6 +188,26 @@ const quizData = [
             "1,72*10^38"
         ],
         answer: 1
+    },
+    {
+        question: "(Santiago) Hvilket sprog bruges til at designe udseende?",
+        choices: [
+            "HTML",
+            "Engelsk",
+            "CSS",
+            "JavaScript"
+        ],
+        answer: 2
+    },
+    {
+        question: "(Santiago) Hvad kan en SQL database sammenlignes med?",
+        choices: [
+            "Et Word dokument",
+            "En OneNote notebook",
+            "En PowerPoint",
+            "Et Excel-ark"
+        ],
+        answer: 3
     },
     {
         question: "(Vibe) Hvad står CRUD for?",
