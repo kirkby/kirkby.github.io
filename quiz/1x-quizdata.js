@@ -262,7 +262,7 @@ const quizData = [
     {
         question: "(William) Hvad betyder \"Double VPN\" i nogle VPN-tjenester?",
         choices: [
-            "En VPN-forbindelse med dobbelt kryptering, hvor trafikken sendes gennem to VPN-servere (rigtigt svar)",
+            "En VPN-forbindelse med dobbelt kryptering, hvor trafikken sendes gennem to VPN-servere",
             "En VPN, der bruger både IPv4 og IPv6 samtidig",
             "En VPN-forbindelse, der er to gange så hurtig som en almindelig VPN",
             "En VPN, der automatisk skifter mellem to forskellige protokoller afhængigt af netværksforholdene"
